@@ -1,0 +1,61 @@
+
+body
+{
+    margin: 0%;
+}
+
+.model
+{
+    opacity: 0.9;
+    width: 100%;
+    /* margin-top: 13%; */
+    /* position: fixed; */
+    background-size: cover;
+    display: flex;
+    position: fixed;
+}
+
+nav
+{
+    /* background-color: black; */
+}
+.navbar-brand
+{
+    width: 20%;
+    height: 20%;
+}
+.logo
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.heading
+{
+    width: 50%;
+    font-size: 50px;
+    color: rgb(233, 25, 139);
+    font-family:'pacifico',cursive;
+    font-weight: bold;
+}
+.navbar-nav
+{
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.navbar-nav a:hover
+{
+    border:1px rgb(19, 217, 252) solid;
+}
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    color: black;
+}
+
+.navbar-toggler
+{
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
