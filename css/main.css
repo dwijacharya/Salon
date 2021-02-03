@@ -60,3 +60,11 @@ nav
     padding: 10px 6px;
     outline: none;
 }
+
+@media only screen and (max-width: 600px) 
+{
+    .model
+    {
+        margin-top: 30%;
+    }
+}
