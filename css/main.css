@@ -35,7 +35,7 @@ nav
     width: 50%;
     font-size: 50px;
     /* display: flex; */
-    color: rgb(245, 201, 3);
+    color: rgb(218, 180, 12);
     font-family:'pacifico',cursive;
     font-weight: bold;
 }
@@ -62,15 +62,27 @@ nav
     outline: none;
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 750px) 
 {
     .model
     {
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .heading
     {
         width: 60%;
         font-size: 40px;
+    }
+}
+@media only screen and (max-width: 300px) 
+{
+    .model
+    {
+        margin-top: 10%;
+    }
+    .heading
+    {
+        width: 80%;
+        font-size: 30px;
     }
 }
