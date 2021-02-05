@@ -62,27 +62,15 @@ nav
     outline: none;
 }
 
-@media only screen and (max-width: 750px) 
+@media only screen and (max-width: 600px) 
 {
     .model
     {
-        margin-top: 10%;
+        margin-top: 10%;    
     }
     .heading
     {
         width: 60%;
-        font-size: 40px;
-    }
-}
-@media only screen and (max-width: 300px) 
-{
-    .model
-    {
-        margin-top: 10%;
-    }
-    .heading
-    {
-        width: 80%;
         font-size: 30px;
     }
 }
