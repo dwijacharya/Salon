@@ -12,7 +12,7 @@ body
     /* position: fixed; */
     background-size: cover;
     display: flex;
-    position: fixed;
+    /* position: fixed; */
 }
 
 nav
@@ -96,9 +96,9 @@ nav
     {
         margin: 0%;
     }
-    img .model
+    .model
     {
-        /* position: fixed; */
+        /* height: 100%; */
     }
 
     .heading
@@ -111,28 +111,8 @@ nav
     {
         position: absolute;
         /* top:45%; */
-        margin-top: -30%;
-        left: 10%;
+        /* margin-top: -20%; */
     }
 
-    .main p
-    {
-        font-size: 30px;
-        line-height: 55px;
-        align-items: center;
-        justify-content: center;
-        color:#6b6902;
-        width:70%;
-    }
-
-    .btn i
-    {
-        padding-left:10px;
-    }
-
-    .btn a
-    {
-        color:var(--primary-color);
-        text-decoration: none;
-    }
+   
 }
