@@ -18,6 +18,7 @@ body
 nav
 {
     background-color: black;
+    position: fixed;
 }
 
 .navbar-brand
@@ -62,15 +63,76 @@ nav
     outline: none;
 }
 
+
+.main{
+    position: absolute;
+    top:45%;
+    left: 10%;
+    
+}
+.main p{
+    font-size: 30px;
+    line-height: 55px;
+    align-items: center;
+    justify-content: center;
+    color:#6b6902;
+    width:70%;
+}
+.btn i{
+    padding-left:10px;
+}
+.btn a{
+    color:var(--primary-color);
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) 
 {
-    .model
+    /* nav
     {
-        margin-top: 10%;    
+        position: fixed;
+    } */
+    body
+    {
+        margin: 0%;
     }
+    img .model
+    {
+        /* position: fixed; */
+        margin-top: -10%;
+    }
+
     .heading
     {
         width: 60%;
         font-size: 30px;
+    }
+
+    .main
+    {
+        position: absolute;
+        top:45%;
+        left: 10%;
+    }
+
+    .main p
+    {
+        font-size: 30px;
+        line-height: 55px;
+        align-items: center;
+        justify-content: center;
+        color:#6b6902;
+        width:70%;
+    }
+
+    .btn i
+    {
+        padding-left:10px;
+    }
+
+    .btn a
+    {
+        color:var(--primary-color);
+        text-decoration: none;
     }
 }
