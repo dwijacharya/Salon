@@ -99,7 +99,6 @@ nav
     img .model
     {
         /* position: fixed; */
-        margin-top: -10%;
     }
 
     .heading
@@ -112,7 +111,7 @@ nav
     {
         position: absolute;
         /* top:45%; */
-        margin-top: -20%;
+        margin-top: -30%;
         left: 10%;
     }
 
