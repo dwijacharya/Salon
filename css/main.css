@@ -99,7 +99,7 @@ nav
     }
     .model
     {
-        height: 70%;
+        height: 100%;
         display: flex;
         position: fixed;
     }
