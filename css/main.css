@@ -112,6 +112,7 @@ nav
     .model
     {
         height: 100%;
+        width: 100%;
         display: flex;
         /* position: fixed; */
     }
@@ -172,11 +173,6 @@ nav
     padding: 50px;
 }
 
-.block-xs
-{
-    justify-content: center;
-    /* padding: 10px; */
-}
 
 .text-gray-800
 {
