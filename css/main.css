@@ -2,7 +2,6 @@ body
 {
     margin: 0%;
     background-color: white;
-    display: flex;
 }
 
 .model
@@ -102,6 +101,7 @@ nav
         margin: 0%;
         padding: 0%;
         display: flex;
+
     }
 
     body
@@ -179,8 +179,8 @@ nav
         height: 100%;
         width: 100%; 
         background-size: cover;
-        display: flex; 
-        /* position: fixed; */
+        /* display: flex;  */
+        /* position:absolute; */
     }
 
     .heading
