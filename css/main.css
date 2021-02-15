@@ -112,7 +112,7 @@ nav
     .model
     {
         height: 100%;
-        width: 100%; 
+        width: 200%; 
         display: flex;
         background-size: cover; 
     }
@@ -157,7 +157,7 @@ nav
 
     .shadow-img
     {
-        padding-right: 200px;
+        padding-right: 250px;
     }
     
 }
