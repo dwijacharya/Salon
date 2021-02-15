@@ -2,6 +2,7 @@
 body
 {
     margin: 0%;
+    background-color: white;
 }
 
 .model
@@ -9,8 +10,8 @@ body
     opacity: 0.9;
     width: 100%;
     margin-top: 10%;
-    position: fixed;
-    background-size: cover;
+    /* position: fixed; */
+    /* background-size: cover; */
     display: flex;
     /* position: fixed; */
 }
@@ -47,10 +48,13 @@ nav
     justify-content: space-between;
     font-size: 20px;
 }
-.navbar-nav a:hover
+
+/* .navbar-expand-lg
 {
-    border:1px rgb(19, 217, 252) solid;
-}
+    background-color: brown;
+} */
+
+
 
 .navbar-dark .navbar-nav .nav-link 
 {
@@ -62,6 +66,7 @@ nav
     border: none;
     padding: 10px 6px;
     outline: none;
+    /* background-color: blue; */
 }
 
 
@@ -76,7 +81,7 @@ nav
     line-height: 55px;
     align-items: center;
     justify-content: center;
-    color:#6b6902;
+    color:black;
     width:70%;
 }
 .btn i{
@@ -93,15 +98,22 @@ nav
     {
         position: fixed;
     } */
-    body
+    .navbar
     {
         margin: 0%;
+        padding: 0%;
+    }
+
+    body
+    {
+        /* margin: 0%; */
+        padding: 0px 0px 0px 0px;
     }
     .model
     {
         height: 100%;
         display: flex;
-        position: fixed;
+        /* position: fixed; */
     }
 
     .heading
@@ -116,4 +128,87 @@ nav
         /* top:45%; */
         /* margin-top: -20%; */
     }  
+    .navbar-nav 
+    {
+        background-color: rgba(8, 10, 8, 0.836);
+    }
+
+    /* .nav-item:hover
+    {
+        padding: 5px;
+    } */
+
+    .nav-item
+    {
+        margin-left: 10px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link 
+    {
+        color:rgb(218, 180, 12);
+    }
+
+    h2 .heading-decorate
+    {
+        font-size: 48px;
+        font-family: fantasy;
+    }
+
+    .block-xs
+    {
+    justify-content: center;
+    padding: 10px;
+    }
+
+    .col-lg-6
+    {
+        justify-content: center;
+    }
+    
 }
+
+.container-fluid
+{
+    padding: 50px;
+}
+
+.block-xs
+{
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.text-gray-800
+{
+    color: black;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.heading-decorate
+{
+    font-size: 48px;
+    font-family: fantasy;
+}
+
+p
+{
+font-size: 17px;
+color: #9b9b9b;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 2;
+}
+
+.second-btn .btn-outline-secondary
+{
+    border: 2px solid pink;
+    color: black;
+}
+
+.second-btn .btn-outline-secondary:hover
+{
+    border: 2px solid pink;
+    background-color: pink;
+}
+
