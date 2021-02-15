@@ -160,9 +160,9 @@ nav
     padding: 10px;
     }
 
-    .col-lg-6
+    .shadow-img
     {
-        justify-content: center;
+        padding-right: 200px;
     }
     
 }
